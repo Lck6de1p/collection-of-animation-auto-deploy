@@ -8,6 +8,7 @@
     <component6 />
     <component7 />
     <component8 />
+    <component9 />
 
     <component100 />
   </div>
@@ -22,6 +23,9 @@ import component5 from '@/components/卡片集.vue'
 import component6 from '@/components/手风琴效果.vue'
 import component7 from '@/components/文字渐入效果.vue'
 import component8 from '@/components/hover展示按钮边框动画.vue'
+import component9 from '@/components/九宫格图片展示.vue'
+
+
 import component100 from '@/components/太阳系.vue'
 
 export default {
@@ -34,8 +38,14 @@ export default {
     component6,
     component7,
     component8,
+    component9,
 
     component100,
+  },
+  computed: {
+    count() {
+      return document.getElementsByClassName('css-demo').length
+    }
   }
 }
 </script>
