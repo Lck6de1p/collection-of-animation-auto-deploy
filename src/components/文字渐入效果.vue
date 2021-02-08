@@ -1,5 +1,5 @@
 <template>
-  <div class="css-demo" data-title="文字渐入效果">
+  <div class="css-demo" data-title="文字随滚轮渐入效果">
     <div class="moving-wrapper">
       <div class="scroll-wrapper">
         <div class="sticky">
