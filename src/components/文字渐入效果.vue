@@ -14,7 +14,6 @@
 export default {
   mounted() {
     const h1 = document.querySelector('#move-text')
-    console.log(h1)
     const box = document.querySelector('.moving-wrapper')
     box.addEventListener('scroll', () => {
       let scrolled = box.scrollTop / (box.scrollHeight - box.clientHeight)

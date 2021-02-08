@@ -1,5 +1,6 @@
 <template>
   <div class="flex-ct-x css-demo pic9-wrapper" data-title="九宫格图片展示">
+    <p>我也不知道为什么tom为什么会出现在猪圈里</p>
     <div class="album">
       <img v-for="(item, index) in imgShowList" :key="index" :src="item" alt="">
     </div>
@@ -50,7 +51,11 @@ export default {
 
 <style lang="scss" scoped>
 .pic9-wrapper {
+  flex-direction: column;
   height: 500px;
+  p {
+    margin-bottom: 12px;
+  }
   .album {
     width: 342px;
     height: 342px;
