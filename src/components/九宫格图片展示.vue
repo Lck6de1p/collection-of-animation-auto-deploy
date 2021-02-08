@@ -1,6 +1,6 @@
 <template>
   <div class="flex-ct-x css-demo pic9-wrapper" data-title="九宫格图片展示">
-    <p>我也不知道为什么tom为什么会出现在猪圈里</p>
+    <p>我也不知道为什么tom会出现在猪圈里</p>
     <div class="album">
       <img v-for="(item, index) in imgShowList" :key="index" :src="item" alt="">
     </div>
