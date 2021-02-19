@@ -1,12 +1,7 @@
 <template>
   <div class="flex-ct-x css-demo accordion-wrapper" data-title="手风琴效果">
     <ul class="accordion">
-      <li class="item"></li>
-      <li class="item"></li>
-      <li class="item"></li>
-      <li class="item"></li>
-      <li class="item"></li>
-      <li class="item"></li>
+      <li class="item" v-for="item in 6" :key="item"></li>
     </ul>
   </div>
 </template>

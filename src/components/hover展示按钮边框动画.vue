@@ -13,10 +13,10 @@ $bg: linear-gradient($color, $color);
     width: 200px;
     height: 80px;
     background: $bg no-repeat left top/0 2px,
-        $bg no-repeat right top/2px 0,
-        $bg no-repeat right bottom/0 2px,
-        $bg no-repeat left bottom/2px 0;
-        // background: [image] [repeat] [positon]/[size]
+      $bg no-repeat right top/2px 0,
+      $bg no-repeat right bottom/0 2px,
+      $bg no-repeat left bottom/2px 0;
+      // background: [image] [repeat] [positon]/[size]
     cursor: pointer;
     line-height: 80px;
     text-align: center;
@@ -25,7 +25,7 @@ $bg: linear-gradient($color, $color);
     color: $color;
     transition: all 300ms;
     &:hover {
-        background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+      background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
     }
   }
 }

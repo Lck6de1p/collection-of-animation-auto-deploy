@@ -1,5 +1,5 @@
 <template>
-  <div class="css-demo" data-title="太阳系图">
+  <!-- <div class="css-demo" data-title="太阳系图"> -->
     <div class='solar-syst'>
       <div class='planet sun'></div>
       <div class='planet mercury'></div>
@@ -12,7 +12,7 @@
       <div class='planet neptune'></div>
       <div class='planet pluto'></div>
       <div class='planet asteroids-belt'></div>
-    </div>
+    <!-- </div> -->
   </div>
 
 </template>
@@ -67,6 +67,7 @@ html, body {
   position: relative;
   height: 100vh;
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
+  overflow: hidden;
   &:after{
     content: '';
     position: absolute;

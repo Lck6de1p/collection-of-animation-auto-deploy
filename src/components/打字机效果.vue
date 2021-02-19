@@ -12,10 +12,11 @@
     font: bold 200% Consolas, Monaco, monospace;   /*Monospaced font*/
     width: 10ch;
     font-weight: 500;
+    color: #09f;
     overflow: hidden;
     white-space: nowrap;
     border-right: 1px solid transparent;
-    animation: typing 5s steps(10), cursor .5s steps(1) infinite;
+    animation: typing 3s steps(10) infinite, cursor .5s steps(1) infinite;
   }
 }
 
