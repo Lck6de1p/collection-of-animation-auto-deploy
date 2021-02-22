@@ -10,6 +10,7 @@
     <component7 />
     <component8 />
     <component9 />
+    <component10 />
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import component6 from '@/components/手风琴效果.vue'
 import component7 from '@/components/文字渐入效果.vue'
 import component8 from '@/components/hover展示按钮边框动画.vue'
 import component9 from '@/components/九宫格图片展示.vue'
+import component10 from '@/components/hover划线指示.vue'
 
 export default {
   components: {
@@ -37,7 +39,7 @@ export default {
     component7,
     component8,
     component9,
-
+    component10
   },
 }
 </script>
