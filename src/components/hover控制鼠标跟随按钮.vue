@@ -27,6 +27,7 @@ export default {
   height: 50px;
   border-radius: 25px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 50px;
   text-align: center;
   color: #fff;
