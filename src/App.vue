@@ -13,6 +13,7 @@
     <component10 />
     <component11 />
     <component12 />
+    <component13 />
   </div>
 </template>
 
@@ -30,7 +31,7 @@ import component9 from '@/components/九宫格图片展示.vue'
 import component10 from '@/components/hover划线指示.vue'
 import component11 from '@/components/文字渐变背景色.vue'
 import component12 from '@/components/hover控制鼠标跟随按钮.vue'
-
+import component13 from '@/components/使用selection改变选中文字颜色.vue'
 
 export default {
   components: {
@@ -46,7 +47,8 @@ export default {
     component9,
     component10,
     component11,
-    component12
+    component12,
+    component13
   },
 }
 </script>
