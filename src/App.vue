@@ -15,6 +15,7 @@
     <component12 />
     <component13 />
     <component14 />
+    <component15 />
   </div>
 </template>
 
@@ -34,6 +35,7 @@ import component11 from '@/components/文字渐变背景色.vue'
 import component12 from '@/components/hover控制鼠标跟随按钮.vue'
 import component13 from '@/components/使用selection改变选中文字颜色.vue'
 import component14 from '@/components/box-shadow实现腥红之月.vue'
+import component15 from '@/components/倒影.vue'
 
 export default {
   components: {
@@ -52,6 +54,7 @@ export default {
     component12,
     component13,
     component14,
+    component15,
     
   },
 }
