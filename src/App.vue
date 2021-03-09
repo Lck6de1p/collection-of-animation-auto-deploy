@@ -16,6 +16,7 @@
     <component13 />
     <component14 />
     <component15 />
+    <component16 />
   </div>
 </template>
 
@@ -36,7 +37,7 @@ import component12 from '@/components/hover控制鼠标跟随按钮.vue'
 import component13 from '@/components/使用selection改变选中文字颜色.vue'
 import component14 from '@/components/box-shadow实现腥红之月.vue'
 import component15 from '@/components/倒影.vue'
-
+import component16 from '@/components/伪类实现对话框效果.vue'
 export default {
   components: {
     vHeader,
@@ -55,7 +56,7 @@ export default {
     component13,
     component14,
     component15,
-    
+    component16
   },
 }
 </script>
