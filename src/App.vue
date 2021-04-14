@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <vHeader />
+   
     <component1 />
     <component2 />
     <component3 />
@@ -18,6 +19,7 @@
     <component15 />
     <component16 />
     <component17 />
+     <component18 />
   </div>
 </template>
 
@@ -40,6 +42,7 @@ import component14 from '@/components/box-shadow实现腥红之月.vue'
 import component15 from '@/components/倒影.vue'
 import component16 from '@/components/伪类实现对话框效果.vue'
 import component17 from '@/components/macOS Dock.vue'
+import component18 from '@/components/点击生成爱心.vue'
 export default {
   components: {
     vHeader,
@@ -59,7 +62,8 @@ export default {
     component14,
     component15,
     component16,
-    component17
+    component17,
+    component18
   },
 }
 </script>
