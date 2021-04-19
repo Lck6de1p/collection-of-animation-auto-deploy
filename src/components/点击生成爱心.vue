@@ -1,6 +1,7 @@
 <template>
   <div class="css-demo" data-title="点击生成爱心">
-    <div class="heart-wrapper" @click="handleClick">
+    <div class="heart-wrapper flex-ct-x" @click="handleClick">
+      试着点击此区域
       <div class="heart-box"
         v-for="item in heartList" 
         :key="item.id"
@@ -40,8 +41,12 @@ export default {
 $width: 15px;
 
 .heart-wrapper {
+  
   height: 300px;
   position: relative;
+  letter-spacing: 1ch;
+  font-weight: bold;
+  color: #66f;
   .heart-box {
     position: absolute;
     top: calc(var(--y));
@@ -54,7 +59,7 @@ $width: 15px;
       width: $width;
       height: $width;
       background: var(--color);
-      border-radius: 0 0 2px 0 ;
+      border-radius: 0 0 2px 0;
       animation: move 2000ms forwards;
       &::before,
       &::after {
