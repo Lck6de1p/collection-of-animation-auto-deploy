@@ -17,7 +17,7 @@
   .reflect {
     width: 150px;
     height: 150px;
-    background-image: url('https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=563618251,4116099502&fm=111&gp=0.jpg');
+    background-image: url('http://lck6de1p.com/static/img/2.jpg');
     background-size: contain;
     -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0,0,0,.5))
   }
@@ -25,7 +25,7 @@
     position: relative;
     width: 150px;
     height: 150px;
-    background-image: url('https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=563618251,4116099502&fm=111&gp=0.jpg');
+    background-image: url('http://lck6de1p.com/static/img/3.jpg');
     background-size: contain;
     &::before {
       content: '';

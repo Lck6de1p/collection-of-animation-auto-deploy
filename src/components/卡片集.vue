@@ -7,7 +7,7 @@
           <h3>this is a css demo</h3>
           <div class="tags">css</div>
           <div class="author">
-            <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2318478174,2636733903&fm=11&gp=0.jpg" alt="" class="author-img">
+            <img src="http://lck6de1p.com/static/img/5.jpg" alt="" class="author-img">
             <strong>奇魔猪</strong>
           </div>
         </article> 

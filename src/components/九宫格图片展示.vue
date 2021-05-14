@@ -1,6 +1,6 @@
 <template>
   <div class="flex-ct-x css-demo pic9-wrapper" data-title="九宫格图片展示">
-    <p>我也不知道为什么tom会出现在猪圈里</p>
+    <p>我也不知道猪圈里为什么会多了些奇怪的东西</p>
     <div class="album">
       <img v-for="(item, index) in imgShowList" :key="index" :src="item" alt="">
     </div>
@@ -12,15 +12,15 @@ export default {
   data() {
     return {
       imgList: [
-        'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=563618251,4116099502&fm=111&gp=0.jpg',
-        'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2318478174,2636733903&fm=11&gp=0.jpg',
-        'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=420836021,600198932&fm=26&gp=0.jpg',
-        'https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3555161318,4283736762&fm=26&gp=0.jpg',
-        'https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1372701839,3368494188&fm=26&gp=0.jpg',
-        'https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3376570205,450144025&fm=26&gp=0.jpg',
-        'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3516635999,2848283275&fm=26&gp=0.jpg',
-        'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2384428881,3432665877&fm=26&gp=0.jpg',
-        'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=90335384,2935170884&fm=11&gp=0.jpg'
+        'http://lck6de1p.com/static/img/7.jpg',
+        'http://lck6de1p.com/static/img/1.jpg',
+        'http://lck6de1p.com/static/img/2.jpg',
+        'http://lck6de1p.com/static/img/3.jpg',
+        'http://lck6de1p.com/static/img/4.jpg',
+        'http://lck6de1p.com/static/img/5.jpg',
+        'http://lck6de1p.com/static/img/6.jpg',
+        'http://lck6de1p.com/static/img/8.jpg',
+        'http://lck6de1p.com/static/img/1.jpg',
       ],
       count: 9,
       isAdd: false,
@@ -51,6 +51,8 @@ export default {
 
 <style lang="scss" scoped>
 .pic9-wrapper {
+  font-weight: bold;
+  color: #66f;
   flex-direction: column;
   height: 500px;
   p {
