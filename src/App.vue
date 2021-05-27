@@ -21,6 +21,7 @@
     <component17 />
     <component18 />
     <component19 />
+    <component20 />
   </div>
 </template>
 
@@ -45,6 +46,7 @@ import component16 from '@/components/伪类实现对话框效果.vue'
 import component17 from '@/components/macOS Dock.vue'
 import component18 from '@/components/点击生成爱心.vue'
 import component19 from '@/components/伪类控制input样式.vue'
+import component20 from '@/components/文本展开收起功能.vue'
 export default {
   components: {
     vHeader,
@@ -66,7 +68,8 @@ export default {
     component16,
     component17,
     component18,
-    component19
+    component19,
+    component20
   },
 }
 </script>
